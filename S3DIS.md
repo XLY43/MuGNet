@@ -2,10 +2,6 @@
 
 Download [S3DIS Dataset](http://buildingparser.stanford.edu/dataset.html) and extract `Stanford3dDataset_v1.2_Aligned_Version.zip` to `$S3DIS_DIR/data`, where `$S3DIS_DIR` is set to dataset directory.
 
-To fix some issues with the dataset as reported in issue [#29](https://github.com/loicland/superpoint_graph/issues/29), apply path `S3DIS_fix.diff` with:
-```
-cp S3DIS_fix.diff $S3DIS_DIR/data; cd $S3DIS_DIR/data; git apply S3DIS_fix.diff; rm S3DIS_fix.diff; cd -
-```
 Define $S3DIS_DIR as the location of the folder containing `/data`
 
 ## learned partition
