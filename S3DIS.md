@@ -4,7 +4,7 @@ Download [S3DIS Dataset](http://buildingparser.stanford.edu/dataset.html) and ex
 
 Define $S3DIS_DIR as the location of the folder containing `/data`
 
-## learned partition
+## Learned Partition
 
 To learn the partition from scratch run:
 ```
