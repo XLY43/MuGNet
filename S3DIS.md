@@ -57,7 +57,7 @@ for FOLD in 1 2 3 4 5 6; do \
     done;
 ```
 Note that these weights are specifically adapted to the pretrained model for the learned partition. Any change to the partition might decrease their performance. 
-```
+
 To evaluate the 6-fold performance:
 ```
 python learning/evaluate.py --dataset s3dis --odir results/s3dis/best --cvfold 123456
